@@ -19,7 +19,7 @@ The four of us did a lot of brainstorming and then came up with the idea of a "P
 
 Installation Steps
 Clone this repository
-
+https://github.com/Manya103/Password-Generator-as-Chrome-Extension.git
 Open google chrome
 In adress bar just paste 👇👇
 chrome://extensions
