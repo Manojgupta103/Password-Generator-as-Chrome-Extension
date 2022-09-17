@@ -1,0 +1,16 @@
+Step 1 : clone this repo in your system
+
+Step 2 : to open the project as chrome extension
+
+	Step 1 : type -> chrome://extensions in your chrome address bar
+
+	Step 2 : toggle developer mode on top right corner
+
+	Step 3 : click Load unpacked on top left corner
+
+	Step 4 : select AttMan/AttMan and open this folder
+
+	Step 5 : chrome extension is added to your browser now start developing
+
+All the basic requirements are met, now start developing.
+You can choose any ide of your choice to develop but i would recommend vscode.

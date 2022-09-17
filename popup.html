@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="dark_mode.css" id="manage-cssstyle">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid mt-3 mb-3 head">
+            SecureD
+        </div>
+        <div class="content">
+
+
+            <!-- title/description/url -->
+            <form>
+                <div>
+                    <input type="text" placeholder="URL" id="url" class="form-control" autocomplete="off">
+                    <label for="url"></label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Username" id="user" class="form-control" autocomplete="off">
+                    <label for="user"></label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Title(optional)" id="title" class="form-control" autocomplete="off">
+                    <label for="title"></label>
+                </div>
+                <div>
+                    <input type="text" placeholder="Description(optional)" id="description" class="form-control" autocomplete="off">
+                    <label for="Description"></label>
+                </div>
+            </form>
+
+
+            <!-- custom input -->
+            <div class="check mt-2">
+                <input type="checkbox" name="eligibility" id="check">
+                <label for="check">
+                    <h6>GENERATE CUSTOM PASSWORD</h6>
+                </label>
+
+
+                <!-- hidden div , visible when checked -->
+                <div class="d-none" id="custom">
+                    <form class="pass-type">
+
+                        <!-- slider -->
+                        <div class="range">
+                            <span><input type="range" min="8" max="100" value="16" class="slider" id="slider"></span>
+                            <p>Length: <span id="demo"></span></p>
+                        </div>
+
+
+
+                        <div class="d1">
+                            <span class="opt colrtt"><input type="checkbox" name="uppercase" value="uppercase" id="upper" "><label for="upper">A-Z</label></span>
+                            <span class="opt colrtt"><input type="checkbox" name="lowercase" value="lowercase" id="lower" "><label for="lower">a-z</label></span>
+                            <span class="opt colrtt"><input type="checkbox" name="number" value="number" id="num" "><label for="num">0-9</label></span>
+                            <span class="opt colrtt"><input type="checkbox" name="special_char" value="special_char" id="spec_char""><label for="spec_char">!@#$</label></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- generate password -->
+            <div class="hidden d-none">
+                <div class="pass">
+                    <input type="text" name="password" id="passGen" value="" class="form-control">
+                </div>
+    
+                <div >
+                    <a href="#" class="btn btn-success container-fluid mt-3 form-control1" id="copyit">COPY TO CLIPBOARD</a>
+                </div>
+
+                <div class="save-pass">
+                    <a href="#" class="btn btn-success container-fluid mt-3 form-control1" id="save">SAVE PASSWORD</a>
+                </div>
+            </div>
+            <p id = "show_error"></p>  <!--For showing error-->
+            <div class="gen-pass">
+                <a href="#" class="btn btn-success container-fluid mt-3 form-control1" id="generate">GENERATE PASSWORD</a>
+            </div>
+            
+
+            <!-- manage password -->
+            <div class="manage-pass pb-4">
+                <a href="#" class="btn btn-success container-fluid mt-3 form-control1" id="manage">MANAGE PASSWORD</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JQuery linked-->
+    <script src = "../jquery-3.5.1.min.js"></script>
+    <!-- javascript linked -->
+    <script src="popup.js"></script>
+    <script src="../passwordGenerator/passwordGenerator.js"></script>
+</body>
+
+</html>
