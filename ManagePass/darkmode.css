@@ -1,0 +1,168 @@
+html, body {
+    margin: -8px;
+    padding: 0px;
+    background: rgb(31, 30, 30);
+    color: white;
+    overflow-x: hidden;
+}
+
+.head {
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    background: transparent linear-gradient(180deg, #074576 0%, #052F50 100%, #04233B 100%) 0% 0% no-repeat padding-box;
+    position: relative;
+    padding: 10px;
+}
+
+.new{
+    position: absolute;;
+    right: 1%;
+}
+.new1{
+    position: absolute;;
+    right: 120px;
+}
+
+.del-all img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 0px;
+    padding-left: 4px;
+}
+
+.saved-pass {
+    padding: 4px 10px 4px;
+    margin: 15px;
+    background: #323435 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    display: flex;
+    border-radius: 10px;
+    color:whitesmoke;
+}
+
+.data {
+    flex-basis: 90%;
+    overflow: auto;
+}
+
+.delete {
+    flex-basis: 5%;
+}
+
+.delete img {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 50px;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    width: 60%;
+}
+
+/* popup */
+
+.popup-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: rgb(155, 138, 138);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    color: white;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.hchang {
+    text-align: center;
+    font: normal normal 600 22px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #fafafa;
+}
+
+.btn1 {
+    box-shadow: 6px 6px 8px #074576;
+    border: 4px solid #074576;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background: #074576 0% 0% no-repeat padding-box;
+}
+
+.btn2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 8px #074576;
+    border: 4px solid #074576;
+    border-radius: 12px;
+}
+
+/* fonts */
+
+.mtext1 {
+    text-align: left;
+    font: normal normal medium 32px/39px Montserrat;
+    letter-spacing: 0px;
+    word-wrap: break-word;
+    opacity: 1;
+}
+
+.mtext2 {
+    text-align: left;
+    font: normal normal medium 24px/29px Montserrat;
+    letter-spacing: 0px;
+    word-wrap: break-word;
+    opacity: 1;
+}
+
+.mtext3 {
+    text-align: left;
+    font: normal normal medium 22px/24px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    word-wrap: break-word;
+}
+.mtext4{
+    text-align: left;
+    font: normal normal medium 32px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    word-wrap: break-word;
+}
+
+.mtext5{
+    text-align: left;
+    font: normal normal medium 32px Montserrat;
+    letter-spacing: 0px;
+    opacity: 1;
+    word-wrap: break-word;
+}

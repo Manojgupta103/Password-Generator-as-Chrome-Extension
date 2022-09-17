@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manage password</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="darkmode.css" id="manage-style">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="mt-3 mb-3 head">
+            <p> <span><button class="btn btn-primary new1 btn3" id="dark-mode">Light Mode</button></span>
+                PASSWORD MANAGER
+                <span class="del-all"><button class="btn btn-primary new btn3">Delete All</button></span></p>
+        </div>
+        <div class="pass-details container">
+        </div>
+    </div>
+
+    <!-- popup -->
+
+
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="close">x</div>
+            <div class="popup-content">
+                <h2 class="hchang">Are you sure ?</h2>
+                <p>This will delete all passwords.</p>
+                <div class="w3-show-inline-block ">
+                    <div class="w3-bar">
+                        <button style="margin:20px;" class="w3-btn btn1">Delete All</button>
+                        <button style="margin:20px;" class="w3-btn btn2">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../popup/popup.js"></script>
+    <script src="manage.js"></script>
+</body>
+
+</html>

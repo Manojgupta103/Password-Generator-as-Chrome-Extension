@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(238, 255, 249);
+}
+
+input {
+  text-align: left;
+  font: normal normal normal 25px/29px Arial;
+  letter-spacing: 0px;
+  color: #00000073;
+  opacity: 1;
+}
+
+.head{
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    background-color: #074778;
+}
+.check{
+    color: #074778;
+}
+
+#custom{
+    text-align: justify;
+}
+.opt{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.opt label{
+    margin-left: 5px;
+}
+/* slider css */
+.range {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #074778;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #074778;
+    cursor: pointer;
+  }
+  #demo{
+      width: 20px;
+      height: 20px;
+      background-color: rgb(246, 253, 253);
+      font-size: 1.2em;
+      font-weight: bold;
+  }
+
+
+  /* form decoration */
+  .form-control {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #00000029;
+    border-left: 5px solid #074576;
+  }
+  
+  .btn-success:hover{
+    background-color: #197dc9;
+  }
+  
+  .form-control1 {
+    background: #074576 0% 0% no-repeat padding-box !important; 
+    /* box-shadow: 6px 6px 8px #074576AB; */
+    box-shadow: 6px 6px 8px #074576;
+    border-color: #074576!important;
+    border-radius: 12px;
+    opacity: 1;
+  }
+  
+  
+  h6 {
+    text-align: left;
+    font: normal normal medium 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #074778;
+    opacity: 1;
+  }
+  
+  .colrtt{
+      color: #074576;;
+  }
+
+  #show_error{
+    display: none;
+    color: red;
+  }

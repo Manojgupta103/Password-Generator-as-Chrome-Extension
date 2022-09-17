@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    width: 320px;
+    background: #14141400 0% 0% no-repeat padding-box;
+  }
+  
+  *{
+    background: rgb(31, 30, 30);
+    color: white;
+  }
+  
+  input {
+    text-align: left;
+    font: normal normal normal 25px/29px Arial;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  
+  
+  .head {
+    text-align: center;
+    font-size: 1.6em;
+    color: #fff;
+    background-color: #323435;
+  }
+  #custom {
+    text-align: justify;
+  }
+  
+  .opt {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .opt label {
+    margin-left: 5px;
+  }
+  .saved-pass{
+    height: 82.4px;
+  }
+  /* slider css */
+  
+  .range {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background:#074778;
+    cursor: pointer;
+  }
+  
+  #demo {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* form decoration */
+  
+  .form-control {
+    border-radius: 10px;
+    box-shadow: 6px 6px 4px #00000029;
+    border-left: 5px solid #074576;
+    background: white;
+  }
+  .form-control1 {
+    background:  #074576 0% 0% no-repeat padding-box !important;
+    box-shadow: 6px 6px 8px #074576AB !important;
+    border-radius: 12px;
+    opacity: 1;
+  }
+  
+  h6 {
+    text-align: left;
+    font: normal normal medium 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .colrtt {
+    color: #ffffff;
+  }
+  
+  #show_error{
+    display: none;
+    color: white;
+    border: 1px solid red;
+  }
